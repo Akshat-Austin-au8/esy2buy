@@ -1,0 +1,62 @@
+.detail {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 50px;
+  font-size: 150%;
+}
+.detail img {
+  max-width: 400px;
+  width: 100%;
+  margin: -10px;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+.box-detail {
+  max-width: 500px;
+  width: 100%;
+  margin: 5px 20px;
+}
+.box-detail .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box-detail h3 {
+  text-transform: uppercase;
+  color: darkblue;
+  letter-spacing: 2px;
+  font-weight: 2rem;
+}
+.box-detail span {
+  line-height: 1.5;
+  margin: 10px 0;
+  font-size: 20px;
+  opacity: 0.8;
+  color: darkblue;
+}
+.box-detail p {
+  line-height: 1.5;
+  margin: 20px 0;
+  font-size: 16px;
+  opacity: 0.8;
+}
+.box-detail .cart {
+  background: rgb(53, 110, 233);
+  border-radius: 3px;
+  border-bottom: 1px solid rgb(53, 110, 233);
+  color: white;
+  margin-top: 10px;
+  padding: 3px 5px;
+  display: inline-block;
+}
+
+.Related {
+  text-transform: uppercase;
+  color: rgb(20, 87, 211);
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 2rem;
+}
